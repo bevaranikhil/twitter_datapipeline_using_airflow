@@ -21,19 +21,19 @@ This project implements a data pipeline that fetches tweets using the Tweepy API
 ## Pre-requisites
 
 1. **Clone the repository:**
-   - create a new folder on to your desktop
-   - open command prompt
+   - Create a new folder on to your desktop
+   - Open command prompt
    ```bash
    cd desktop\folder_name
    git clone https://github.com/bevaranikhil/twitter_datapipeline_using_airflow.git
 
 2. **Install all the libraries:**
-   - open Command Prompt.
+   - Open Command Prompt.
    - Copy and install all libraries from [twitter_commands.sh](https://github.com/bevaranikhil/twitter_datapipeline_using_airflow/blob/main/twitter_comands.sh).
 
 ### Execution
 
-- deploy [Twitter_dag](https://github.com/bevaranikhil/twitter_datapipeline_using_airflow/blob/main/twitter_dag.py) and [Twitter_etl](https://github.com/bevaranikhil/twitter_datapipeline_using_airflow/blob/main/twitter_etl.py) on to EC2 machine.
+- Deploy [Twitter_dag](https://github.com/bevaranikhil/twitter_datapipeline_using_airflow/blob/main/twitter_dag.py) and [Twitter_etl](https://github.com/bevaranikhil/twitter_datapipeline_using_airflow/blob/main/twitter_etl.py) on to EC2 machine.
 
 ### Instructions:
 1. **Replace placeholder values** with your specific credentials and repository information.
